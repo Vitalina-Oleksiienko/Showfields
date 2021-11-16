@@ -2,4 +2,72 @@
   background-color: var(--accent-color);
 }
 .slider__title {
+  font-family: 'Trade Gothic LT Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2.31;
+  text-align: center;
+  color: var(--text-color);
+}
+.slider__title-name {
+  font-family: 'Ogg', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 2.52;
+  text-align: center;
+  color: var(--text-color);
+}
+.slider__img::after {
+  content: '';
+  position: absolute;
+  background-image: url(./../images/Group58.png);
+  background-repeat: no-repeat;
+  background-position: 150%;
+  background-size: contain;
+  width: 175.31px;
+  height: 175.31px;
+  margin: 0 auto;
+}
+.slider__button--first {
+  font-family: 'Trade Gothic LT Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--text-color);
+
+  width: 208px;
+  height: 31px;
+  background: var(--accent-color);
+  border: 1px solid var(--text-color);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.slider__text {
+  font-family: 'Trade Gothic LT Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--text-color);
+}
+.slider__button--second {
+  font-family: 'Trade Gothic LT Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--additional-text-color);
+
+  width: 195px;
+  height: 36px;
+
+  background: var(--text-color);
+  border: 1px solid var(--text-color);
+  box-sizing: border-box;
 }
