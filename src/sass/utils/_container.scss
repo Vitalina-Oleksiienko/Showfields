@@ -32,3 +32,22 @@
 //     padding: 0 5px 0 5px;
 //   }
 // }
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 14px;
+
+  @include mobile {
+    max-width: 767.98px;
+    padding: 0 5px 0 5px;
+  }
+
+  //   @include tablet {
+  //     width: 1024px;
+  //     padding: 0 51px;
+  //   }
+
+  @include desktop {
+    max-width: 1024px;
+  }
+}
