@@ -143,6 +143,10 @@ select {
   }
 }
 
+.header {
+  padding: 5px 0 32px;
+}
+
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,5 +163,51 @@ select {
 
 .header-menu {
   display: none;
+}
+
+.hero {
+  background: var(--text-color);
+}
+
+.hero__title {
+  font-family: 'Ogg', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 0.4;
+  text-align: center;
+  color: var(--additional-text-color);
+  margin-bottom: 32px;
+  padding-top: 42px;
+}
+
+.hero__text {
+  font-family: 'Trade Gothic LT Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--additional-text-color);
+  padding: 0 19px 39px 22px;
+}
+
+.star {
+  background-image: url(./../images/Group7.png);
+  padding: 49px 0 28px 0;
+}
+
+.star__title {
+  font-family: 'Ogg', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.slider {
+  background-color: var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+.hero {
+  background: var(--text-color);
+}
+.hero__title {
+  font-family: 'Ogg', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 0.4;
+  text-align: center;
+  color: var(--additional-text-color);
+  margin-bottom: 32px;
+  padding-top: 42px;
+}
+.hero__text {
+  font-family: 'Trade Gothic LT Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--additional-text-color);
+
+  padding: 0 19px 39px 22px;
+}
