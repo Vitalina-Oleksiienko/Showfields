@@ -142,4 +142,22 @@ select {
     max-width: 1024px;
   }
 }
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header-logo {
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
