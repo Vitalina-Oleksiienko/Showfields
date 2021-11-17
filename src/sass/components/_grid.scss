@@ -1,6 +1,10 @@
 .grid-section {
 }
 .grid {
+  display: grid;
+  //grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 55px 40px;
+  //max-width: calc(100%-100px);
 }
 .grid-title {
   font-family: 'Ogg';
@@ -13,6 +17,12 @@
 .grid__cards {
 }
 .grid__item {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 55px 40px;
+  max-width: calc(100%-100px);
+  width: 77px;
+  height: 93px;
+  background: url(./../images/bgd.png);
 }
 .grid__item-img {
 }
