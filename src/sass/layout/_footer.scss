@@ -41,18 +41,36 @@
   position: absolute;
   right: 25px;
   top: 10px;
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: none;
+  }
 }
 .footer__list--add-two {
   display: inline;
   position: absolute;
   right: 25px;
   top: 51px;
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: none;
+  }
 }
 .footer__list--add-three {
   display: inline;
   position: absolute;
   right: 25px;
   top: 92px;
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: none;
+  }
 }
 // .footer__list-item::after {
 //   content: '+';
@@ -78,6 +96,7 @@
   display: none;
 }
 .footer__icon {
+  margin-top: 15px;
   text-align: center;
   @include tablet {
     display: none;
