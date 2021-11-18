@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/footer.js"],"names":["document","getElementById","onclick","hidden"],"mappings":";AAEIA,SAASC,eAAe,SAASC,QAAU,WACzCF,SAASC,eAAe,QAAQE,QAAS","file":"footer.c29be765.js","sourceRoot":"../src","sourcesContent":["\n\n    document.getElementById('hider').onclick = function() {\n      document.getElementById('text').hidden = true;\n    }\n"]}
