@@ -52,6 +52,7 @@
 //   //margin: 0 auto;
 // }
 .slider__button--first {
+  position: relative;
   font-family: 'Trade Gothic LT Std', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -61,13 +62,24 @@
   color: var(--text-color);
 
   display: block;
-  width: 208px;
+  width: 180px;
   height: 31px;
   background: var(--accent-color);
   border: 1px solid var(--text-color);
   box-sizing: border-box;
   border-radius: 8px;
   margin: 0 auto 16px auto;
+}
+.slider__button--oval {
+  display: inline;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  margin-right: 0;
+  border-radius: 50%;
+  background: #b3f695;
 }
 .slider__text {
   font-family: 'Trade Gothic LT Std', sans-serif;

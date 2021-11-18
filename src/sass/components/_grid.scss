@@ -81,6 +81,103 @@
   position: absolute;
   z-index: -1;
   top: 20px;
-  left: 10px;
-  width: 300px;
+  left: -13px;
+  width: 118px;
+}
+.grid__item--oval {
+  position: absolute;
+  z-index: -1;
+  top: -19px;
+  left: 19px;
+  width: 100%;
+}
+.grid__item--combined-shape {
+  position: absolute;
+  z-index: -1;
+  top: -14px;
+  left: -26px;
+  right: -14px;
+}
+.grid__item--star {
+  position: absolute;
+  z-index: -1;
+  top: 14px;
+  right: -42px;
+}
+.grid__item--polygon {
+  position: absolute;
+  z-index: -1;
+  top: -25px;
+  right: -20px;
+}
+.grid__item--oval-second {
+  position: absolute;
+  z-index: -1;
+  top: -24px;
+  left: -30px;
+  right: 21px;
+}
+.grid__item--combined-shape-second {
+  position: absolute;
+  z-index: -1;
+  top: -23px;
+  left: -25px;
+  right: -20px;
+}
+.grid__item--star-second {
+  position: absolute;
+  z-index: -1;
+  top: -44px;
+  right: -43px;
+  left: 5px;
+}
+.grid__item--polygon-second {
+  position: absolute;
+  z-index: -1;
+  top: 7px;
+  right: 31px;
+  left: -39px;
+}
+.grid__item--combined-shape-third {
+  position: absolute;
+  z-index: -1;
+  top: 15px;
+  left: -19px;
+  right: -26px;
+}
+.grid__item--triangle {
+  position: absolute;
+  z-index: -1;
+  top: -27px;
+  left: -1px;
+  right: -37px;
+}
+.grid__item--bag {
+  position: absolute;
+  top: -28px;
+  left: -43px;
+  right: 52px;
+}
+.grid__item--lamp {
+  position: absolute;
+  top: -28px;
+  left: 58px;
+}
+.grid__item--glass {
+  position: absolute;
+  top: -10px;
+  left: -43px;
+  right: 52px;
+}
+.grid__item--clown {
+  position: absolute;
+  top: -83px;
+  left: -28px;
+  right: 52px;
+}
+.grid__item--tent {
+  position: absolute;
+  top: -63px;
+  left: 43px;
+  right: -38px;
 }
