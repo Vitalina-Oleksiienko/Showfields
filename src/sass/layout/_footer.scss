@@ -28,13 +28,38 @@
   background-color: var(---main-bg);
 }
 .footer__list {
+  position: relative;
 }
 .footer__list-item {
-  margin: 0 0 0 8px;
+  //margin: 0 0 0 8px;
+  padding: 8px 8px;
+  width: 100%;
+  border-top: 1.06px solid var(--text-color);
 }
-.footer__list-item::after {
-  content: '+';
-  width: 342px;
+.footer__list--add {
+  display: inline;
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+.footer__list--add-two {
+  display: inline;
+  position: absolute;
+  right: 25px;
+  top: 51px;
+}
+.footer__list--add-three {
+  display: inline;
+  position: absolute;
+  right: 25px;
+  top: 92px;
+}
+// .footer__list-item::after {
+//   content: '+';
+//   width: 342px;
+//   border-bottom: 1.06px solid var(--text-color);
+// }
+.footer__list-item--partner {
   border-bottom: 1.06px solid var(--text-color);
 }
 .footer__about {
