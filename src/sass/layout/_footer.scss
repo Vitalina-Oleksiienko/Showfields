@@ -11,6 +11,9 @@
   color: var(--text-color);
   padding: 0 12px 8px 8px;
 }
+.footer__form {
+  position: relative;
+}
 .footer__input {
   margin: 0 0 35px 8px;
 
@@ -26,6 +29,11 @@
   line-height: 1.25;
   color: var(--secondary-text-color);
   background-color: var(---main-bg);
+}
+.footer__input--icon {
+  display: inline;
+  position: absolute;
+  right: 28px;
 }
 .footer__list {
   position: relative;
