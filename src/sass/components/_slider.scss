@@ -20,19 +20,24 @@
   line-height: 2.52;
   text-align: center;
   color: var(--text-color);
+  margin-bottom: 200px;
+}
+.slider__foto {
+  display: block;
+  position: relative;
 }
 .slider__img {
-  //position: absolute;
+  position: absolute;
   z-index: 1;
-  top: 10px;
-  left: 10px;
+  top: -169px;
+  left: 105px;
   margin: 0 auto;
   border-radius: 50%;
 }
 .slider__img--background {
-  // position: absolute;
-  // top: 10px;
-  // left: 10px;
+  position: absolute;
+  top: -236px;
+  left: 44px;
 }
 // .background::before {
 //   content: '';
