@@ -1,5 +1,6 @@
 .hero {
   background: var(--text-color);
+  padding: 40px 0 52px 0;
 }
 .hero__title {
   font-family: 'Ogg', sans-serif;
@@ -42,10 +43,23 @@
   color: var(--additional-text-color);
 
   padding: 0 19px 39px 22px;
+  @include tablet {
+    width: 834px;
+    margin: 0 auto;
+    padding: 0 68px 40px 68px;
+    font-family: 'Trade Gothic LT Std',
+    sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.68;
+    text-align: center;
+    color: var(--additional-text-color);
+  }
   @include desktop {
     width: 834px;
     margin: 0 auto;
-    padding: 0 50px 40px 50px;
+        padding: 0 120px 40px 135px;
     font-family: 'Trade Gothic LT Std', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -56,4 +70,13 @@
 
   }
   
+}
+.hero__text--desktop{
+  display: none;
+  @include tablet {
+    display: inline;
+  }
+  @include desktop {
+    display: inline;
+  }
 }

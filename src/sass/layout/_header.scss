@@ -32,10 +32,12 @@
   @include tablet {
     width: 286px;
     height: 79px;
+    margin-bottom: 20px;
   }
   @include desktop {
     width: 286px;
     height: 79px;
+    margin-bottom: 20px;
   }
 }
 .header-menu {
