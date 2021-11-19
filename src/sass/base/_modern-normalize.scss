@@ -35,6 +35,12 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  @include tablet {
+    overflow-x:hidden;
+  }
+  @include desktop {
+    overflow-x:hidden;
+  }
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/

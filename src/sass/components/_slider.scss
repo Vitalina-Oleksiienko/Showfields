@@ -11,6 +11,14 @@
   line-height: 2.31;
   text-align: center;
   color: var(--text-color);
+  @include tablet {
+    margin:109px 0 0 0;
+    text-align: end;
+  }
+  @include desktop {
+    margin:109px 0 0 0;
+    text-align: end;
+  }
 }
 .slider__title-name {
   font-family: 'Ogg', sans-serif;
@@ -21,6 +29,37 @@
   text-align: center;
   color: var(--text-color);
   margin-bottom: 200px;
+  @include tablet {
+    margin: 0 100px 0 0;
+    text-align: end;
+  }
+
+  @include desktop {
+    margin: 0 100px 0 0;
+    text-align: end;
+  }
+}
+.slider__main{
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.slider__right{
+  @include tablet{
+    justify-content: center;
+    text-align: center;
+  }
+  @include desktop {
+    justify-content: center;
+    text-align: center;
+  }
 }
 .slider__foto {
   display: block;
@@ -33,11 +72,39 @@
   left: 105px;
   margin: 0 auto;
   border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  @include tablet {
+    top: -169px;
+    left: 105px;
+    width: 215px;
+    height: 215px;
+  }
+  @include desktop{
+    top: -169px;
+    left: 105px;
+    width: 215px;
+    height: 215px;
+  }
 }
 .slider__img--background {
   position: absolute;
   top: -236px;
   left: 44px;
+  width: 250px;
+  height: 250px;
+  @include tablet{
+    width: 405px;
+    height: 405px;
+    top: -236px;
+    left: 44px;
+  }
+  @include desktop {
+    width: 405px;
+    height: 405px;
+    top: -236px;
+    left: 44px;
+  }
 }
 // .background::before {
 //   content: '';
@@ -90,6 +157,14 @@
   text-align: center;
   color: var(--text-color);
   margin-bottom: 19px;
+  @include tablet {
+    width: 425px;
+    margin: 0 100px 20px 0;
+  }
+  @include desktop {
+    width: 425px;
+    margin: 0 100px 20px 0;
+  }
 }
 .slider__button--second {
   font-family: 'Trade Gothic LT Std', sans-serif;
@@ -107,4 +182,10 @@
   border: 1px solid var(--text-color);
   box-sizing: border-box;
   margin: 0 auto 29px auto;
+  @include tablet{
+    margin: 0 0 91px 0;
+  }
+  @include desktop{
+    margin: 0 0 91px 0;  
+  }
 }
