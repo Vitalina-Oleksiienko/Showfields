@@ -32,7 +32,7 @@
   @include tablet {
     margin: 0 0 0 0;
     //text-align: end;
-    font-size: 61px;
+    font-size: 41px;
   }
 
   @include desktop {
@@ -56,8 +56,8 @@
 }
 .slider__left{
   @include tablet{
-    margin-top: 391px;
-    flex-basis: 400px;
+    margin-top: 354px;
+    flex-basis: 300px;
   }
   @include desktop {
     margin-top: 404px;
@@ -88,10 +88,10 @@
   width: 118px;
   height: 118px;
   @include tablet {
-    top: -278px;
-    left: 105px;
-    width: 215px;
-    height: 215px;
+        top: -297px;
+        left: 78px;
+        width: 190px;
+        height: 190px;
   }
   @include desktop{
     top: -314px;
@@ -107,9 +107,9 @@
   width: 250px;
   height: 250px;
   @include tablet{
-    width: 455px;
-    height: 455px;
-    top: -390px;
+    width: 400px;
+    height: 400px;
+    top: -385px;
     left: 18px;
   }
   @include desktop {
