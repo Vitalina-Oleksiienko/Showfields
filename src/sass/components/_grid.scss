@@ -107,6 +107,12 @@
   top: 20px;
   left: -13px;
   width: 118px;
+  @include tablet {
+    width: 100%;
+  }
+  @include desktop {
+    width: 100%;
+  }
 }
 .grid__item--oval {
   position: absolute;
@@ -114,6 +120,14 @@
   top: -19px;
   left: 19px;
   width: 100%;
+  @include tablet {
+    top: -19px;
+    left: 48px;
+  }
+  @include desktop {
+    top: -19px;
+    left: 48px;
+  }
 }
 .grid__item--combined-shape {
   position: absolute;
@@ -181,27 +195,83 @@
   top: -28px;
   left: -43px;
   right: 52px;
+  width: 56px;
+  height: 69px;
+  @include tablet {
+    top: -42px;
+    left: -62px;
+  }
 }
 .grid__item--lamp {
   position: absolute;
   top: -28px;
   left: 58px;
+  width: 48px;
+  height: 52px;
+  @include tablet {
+    width: 106px;
+    height: 112px;
+    top: -52px;
+    left: 134px;
+  }
+  @include desktop {
+    width: 106px;
+    height: 112px;
+    top: -52px;
+    left: 134px;
+  }
 }
 .grid__item--glass {
   position: absolute;
   top: -10px;
   left: -43px;
   right: 52px;
+  width: 66px;
+  height: 85px;
+  @include tablet {
+    width: 139px ;
+    height: 178px;
+      top: -25px;
+      left: -97px;
+  }
+  @include desktop{
+    width: 139px;
+    height: 178px;
+    top: -25px;
+    left: -97px;
+  }
 }
 .grid__item--clown {
   position: absolute;
-  top: -83px;
+  top: -71px;
   left: -28px;
   right: 52px;
+  width: 46px;
+  height: 123px;
+  @include tablet{
+    width: 66px;
+    height: 148px;
+    top: -44px;
+    left: -54px;
+  }
+  @include desktop {
+    width: 66px;
+    height: 148px;
+    top: -44px;
+    left: -54px;
+  }
 }
 .grid__item--tent {
   position: absolute;
   top: -63px;
   left: 43px;
   right: -38px;
+  @include tablet{
+    top: -63px;
+    left: 103px;
+  }
+  @include desktop {
+    top: -63px;
+    left: 103px;
+  }
 }
