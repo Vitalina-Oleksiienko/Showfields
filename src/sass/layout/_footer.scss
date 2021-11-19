@@ -2,6 +2,11 @@
   padding: 34px 0 60px 0;
   background: var(--list-color);
 }
+.footer__block{
+  //display: flex;
+  //flex-direction: row;
+
+}
 .footer__title {
   font-family: 'Trade Gothic LT Std', sans-serif;
   //width: 586px;
@@ -37,12 +42,19 @@
 }
 .footer__list {
   position: relative;
+  
 }
 .footer__list-item {
   //margin: 0 0 0 8px;
   padding: 8px 8px;
   width: 100%;
   border-top: 1.06px solid var(--text-color);
+  @include tablet {
+    border-top: none;
+  }
+  @include desktop {
+    border: none;
+  }
 }
 .footer__list--add {
   display: inline;
@@ -87,21 +99,61 @@
 // }
 .footer__list-item--partner {
   border-bottom: 1.06px solid var(--text-color);
+  @include tablet {
+    border: none;
+  }
+  @include desktop {
+    border: none;
+  }
 }
 .footer__about {
   display: none;
+  @include tablet{
+    display: block;
+  }
+  @include desktop {
+    display: block;
+  }
 }
 .footer__visit {
   display: none;
+  @include tablet {
+    display: block;
+  }
+
+  @include desktop {
+    display: block;
+  }
 }
 .footer__partner {
   display: none;
+  @include tablet {
+    display: block;
+  }
+
+  @include desktop {
+    display: block;
+  }
 }
 .footer__social {
   display: none;
+  @include tablet {
+    display: block;
+  }
+
+  @include desktop {
+    display: block;
+  }
 }
 .footer__list-item--social {
   display: none;
+  @include tablet {
+    display: block;
+  }
+
+  @include desktop {
+    display: block;
+  }
 }
 .footer__icon {
   margin-top: 15px;
