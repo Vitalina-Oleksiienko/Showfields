@@ -11,6 +11,26 @@
   color: var(--additional-text-color);
   margin-bottom: 32px;
   padding-top: 42px;
+
+  @include tablet {
+    font-family: 'Ogg', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 61px;
+    line-height: 63px;
+
+    text-align: center;
+  }
+
+  @include desktop {
+    font-family: 'Ogg', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 61px;
+    line-height: 63px;
+    
+    text-align: center;
+  }
 }
 .hero__text {
   font-family: 'Trade Gothic LT Std', sans-serif;
@@ -22,4 +42,18 @@
   color: var(--additional-text-color);
 
   padding: 0 19px 39px 22px;
+  @include desktop {
+    width: 834px;
+    margin: 0 auto;
+    padding: 0 50px 40px 50px;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.68;
+    text-align: center;
+    color: var(--additional-text-color);
+
+  }
+  
 }

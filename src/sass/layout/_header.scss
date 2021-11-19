@@ -5,15 +5,75 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @include tablet {
+    justify-content: end;
+  }
+  @include desktop {
+    justify-content: end;
+  }
 }
 .header-logo {
   margin: 0 auto;
+  width: 42px;
+  height: 52px;
+  @include tablet {
+    width: 67px;
+    height: 82px;
+  }
+  @include desktop {
+    width: 67px;
+    height: 82px;
+  }
+}
+.header-logo--text{
+  margin: 0 auto;
+  width: 181px;
+  height: 49px;
+  @include tablet {
+    width: 286px;
+    height: 79px;
+  }
+  @include desktop {
+    width: 286px;
+    height: 79px;
+  }
 }
 .header-menu {
   display: none;
+  @include tablet {
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+
+    text-align: center;
+    color: var(--text-color);
+  }
+  @include desktop {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: var(--text-color);
+  }
 }
 .header-menu__item {
 }
 .header__menu--mobile{
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: none;
+  }
 
 }
