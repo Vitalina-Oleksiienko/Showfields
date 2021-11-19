@@ -13,11 +13,11 @@
   color: var(--text-color);
   @include tablet {
     margin:109px 0 0 0;
-    text-align: end;
+    //text-align: end;
   }
   @include desktop {
     margin:109px 0 0 0;
-    text-align: end;
+    //text-align: end;
   }
 }
 .slider__title-name {
@@ -28,27 +28,35 @@
   line-height: 2.52;
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 200px;
+  margin-bottom: 180px;
   @include tablet {
-    margin: 0 100px 0 0;
-    text-align: end;
+    margin: 0 0 0 0;
+    //text-align: end;
   }
 
   @include desktop {
-    margin: 0 100px 0 0;
-    text-align: end;
+    margin: 0 0 0 0;
+    //text-align: end;
   }
 }
 .slider__main{
   @include tablet {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   @include desktop {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+}
+.slider__left{
+  @include tablet{
+    margin-top: 295px;
+  }
+  @include desktop {
+    margin-top: 295px;
   }
 }
 .slider__right{
@@ -68,8 +76,8 @@
 .slider__img {
   position: absolute;
   z-index: 1;
-  top: -169px;
-  left: 105px;
+  top: 162px;
+  left: 89px;
   margin: 0 auto;
   border-radius: 50%;
   width: 118px;
@@ -89,8 +97,8 @@
 }
 .slider__img--background {
   position: absolute;
-  top: -236px;
-  left: 44px;
+  top: 99px;
+  left: 28px;
   width: 250px;
   height: 250px;
   @include tablet{
@@ -159,11 +167,11 @@
   margin-bottom: 19px;
   @include tablet {
     width: 425px;
-    margin: 0 100px 20px 0;
+    margin: 0 0 20px 0;
   }
   @include desktop {
     width: 425px;
-    margin: 0 100px 20px 0;
+    margin: 0 0 20px 0;
   }
 }
 .slider__button--second {
@@ -183,9 +191,13 @@
   box-sizing: border-box;
   margin: 0 auto 29px auto;
   @include tablet{
-    margin: 0 0 91px 0;
+    margin: 0 auto 91px auto;
+    background: var(--accent-color);
+    color: var(--text-color);
   }
   @include desktop{
-    margin: 0 0 91px 0;  
+    margin: 0 auto 91px auto;  
+    background: var(--accent-color);
+    color: var(--text-color);
   }
 }
