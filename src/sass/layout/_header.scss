@@ -4,6 +4,7 @@
 .header-nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .header-logo {
   margin: 0 auto;
@@ -12,4 +13,7 @@
   display: none;
 }
 .header-menu__item {
+}
+.header__menu--mobile{
+
 }
