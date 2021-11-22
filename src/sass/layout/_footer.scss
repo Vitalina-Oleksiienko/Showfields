@@ -173,11 +173,14 @@
   display: none;
   @include tablet {
     display: block;
+    flex-basis: 100px;
+    margin-right: 35px;
   }
 
   @include desktop {
     display: block;
     flex-basis: 100px;
+    margin-right: 35px;
   }
 }
 .footer__icon {
