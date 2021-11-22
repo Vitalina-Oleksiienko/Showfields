@@ -6,10 +6,12 @@
   @include tablet{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
   }
   @include desktop{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
   }
   
 
