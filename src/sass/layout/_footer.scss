@@ -30,6 +30,7 @@
   }
   @include desktop{
     order: 5;
+    flex-basis: 300px;
   }
   
 }
@@ -68,6 +69,8 @@
   }
   @include desktop {
     border: none;
+    flex-basis: 230px;
+    //flex: 1 1 auto;
   }
 }
 .footer__list--add {
@@ -123,7 +126,12 @@
 .footer__about {
   display: none;
   @include tablet{
-    display: block;
+    display: inline;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.54;
   }
   @include desktop {
     display: block;
@@ -152,11 +160,13 @@
 .footer__social {
   display: none;
   @include tablet {
-    display: block;
+    display: inline;
   }
 
   @include desktop {
     display: block;
+    
+    
   }
 }
 .footer__list-item--social {
@@ -167,6 +177,7 @@
 
   @include desktop {
     display: block;
+    flex-basis: 100px;
   }
 }
 .footer__icon {
