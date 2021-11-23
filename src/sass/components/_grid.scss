@@ -46,7 +46,7 @@
   position: relative;
   padding: 8px;
   margin: 0 35px;
-
+  max-width: 70%;
   //width: 161px;
   //height: 195px;
   background: url(./../images/bgd.png);
@@ -70,7 +70,7 @@
   position: absolute;
   z-index: -1;
   top: -24px;
-  left: -30px;
+  left: -24px;
 }
 .grid__item-img {
   //position: absolute;
