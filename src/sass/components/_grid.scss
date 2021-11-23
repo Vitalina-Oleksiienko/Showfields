@@ -4,13 +4,13 @@
 .grid {
   //position: relative;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   //   gap: 77px;
   //   justify-items: center;
   //grid-template-rows: 1fr 1fr;
   //grid-template-columns: repeat(auto-fill, minmax(77px, 1fr));
 
-  grid-gap: 20px 5px;
+  grid-gap: 55px ;
 
   //grid-auto-flow: row;
   //max-width: calc(100%-100px);
@@ -42,9 +42,10 @@
 .grid__cards {
 }
 .grid__item {
+  justify-self: center;
   position: relative;
   padding: 8px;
-  margin: 0 35px;
+  //margin: 0 35px;
 
   //width: 161px;
   //height: 195px;
@@ -194,9 +195,9 @@
 .grid__item--triangle {
   position: absolute;
   z-index: -1;
-  top: -27px;
-  left: -1px;
-  right: -37px;
+  top: -30px;
+  left: 28px;
+  right: -18px;
 }
 .grid__item--bag {
   position: absolute;
