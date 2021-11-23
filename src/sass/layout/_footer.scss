@@ -59,6 +59,18 @@
 }
 .footer__list {
   position: relative;
+
+  @include tablet{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  @include desktop{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+
   
 }
 .footer__list-item {
@@ -71,47 +83,54 @@
   }
   @include desktop {
     border: none;
-    flex-basis: 230px;
+    flex-basis: 250px;
+    margin: 0 30px 0 0;
     //flex: 1 1 auto;
     
   }
 }
-.footer__list--add {
-  display: inline;
-  position: absolute;
-  right: 25px;
-  //top: 10px;
-  @include tablet {
-    display: none;
-  }
-  @include desktop {
-    display: none;
-  }
+.item {
+  padding-top: 10px;
 }
-.footer__list--add-two {
-  display: inline;
-  position: absolute;
-  right: 25px;
-  //top: 51px;
-  @include tablet {
-    display: none;
-  }
-  @include desktop {
-    display: none;
-  }
+.show{
+  // padding-bottom: 10px;
 }
-.footer__list--add-three {
-  display: inline;
-  position: absolute;
-  right: 25px;
-  //top: 92px;
-  @include tablet {
-    display: none;
-  }
-  @include desktop {
-    display: none;
-  }
-}
+// .footer__list--add {
+//   display: inline;
+//   position: absolute;
+//   right: 25px;
+//   //top: 10px;
+//   @include tablet {
+//     display: none;
+//   }
+//   @include desktop {
+//     display: none;
+//   }
+// }
+// .footer__list--add-two {
+//   display: inline;
+//   position: absolute;
+//   right: 25px;
+//   //top: 51px;
+//   @include tablet {
+//     display: none;
+//   }
+//   @include desktop {
+//     display: none;
+//   }
+// }
+// .footer__list--add-three {
+//   display: inline;
+//   position: absolute;
+//   right: 25px;
+//   //top: 92px;
+//   @include tablet {
+//     display: none;
+//   }
+//   @include desktop {
+//     display: none;
+//   }
+// }
 // .footer__list-item::after {
 //   content: '+';
 //   width: 342px;
