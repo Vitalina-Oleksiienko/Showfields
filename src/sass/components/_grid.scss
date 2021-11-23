@@ -4,16 +4,15 @@
 .grid {
   //position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  //grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   //   gap: 77px;
   //   justify-items: center;
   //grid-template-rows: 1fr 1fr;
-  //grid-template-columns: repeat(auto-fill, minmax(77px, 1fr));
+  //grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(77px, 1fr));
 
-  grid-gap: 55px ;
+  grid-gap: 35px 5px;
 
-  //grid-auto-flow: row;
-  //max-width: calc(100%-100px);
   @include tablet {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 55px 35px;
@@ -45,7 +44,7 @@
   justify-self: center;
   position: relative;
   padding: 8px;
-  //margin: 0 35px;
+  margin: 0 35px;
 
   //width: 161px;
   //height: 195px;
