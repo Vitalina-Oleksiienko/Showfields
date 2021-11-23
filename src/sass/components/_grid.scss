@@ -51,6 +51,19 @@
   background: url(./../images/bgd.png);
   background-size: contain;
   background-repeat: no-repeat;
+  &:hover{
+    transform: scale(1.2);
+  }
+  &:focus{
+    transform: scale(1.2);
+  }
+
+  @include tablet{
+    background-size: inherit;
+  }
+  @include desktop {
+    background-size: inherit;
+  }
 }
 .grid__item-bgd {
   position: absolute;
@@ -63,15 +76,15 @@
   //z-index: 1;
   margin-right: 0;
   margin-bottom: 30px;
-  //max-width: 100%;
+  max-width: 100%;
   //max-height: 100%;
   object-fit: contain;
   @include tablet {
-    margin: 0 0 0 0;
+    margin: 0 0 35px 0;
     
   }
   @include desktop {
-    margin: 0 0 0 0;
+    margin: 0 0 40px 0;
   }
 }
 .grid__item-text {
@@ -79,32 +92,21 @@
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  //line-height: 2.19;
-  display: flex;
+  line-height: 2.19;
+  display: inline;
   flex-direction: column;
-  //   align-items: center;
-  text-align: center;
-  word-wrap: normal;
-  //width: 150px;
+  text-align: start;
+  white-space: nowrap;
+  
   @include tablet {
-    font-family: 'Ogg', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    //line-height: 51px;
-    text-align: center;
-
-    //padding: 10px 10px 40px 10px;
+    font-size: 26px;
+    line-height: 1.41;
+    
   }
   @include desktop {
-    font-family: 'Ogg', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px; //36
-    //line-height: 1.41;
-    text-align: center;
-
-    //padding: 10px 10px 40px 10px;
+    font-size: 36px; //36
+    line-height: 1.41;
+    
   }
 }
 .grid__item--combined {
@@ -203,6 +205,14 @@
   right: 52px;
   width: 56px;
   height: 69px;
+
+  animation: pulse 4s infinite;
+  @keyframes pulse {
+    0% {
+      transform: scale(1.1);
+      transition: var(--animation);
+    }
+  }
   @include tablet {
     width: 87px;
     height: 96px;
@@ -222,6 +232,14 @@
   left: 58px;
   width: 48px;
   height: 52px;
+
+  animation: pulse 4s infinite;
+  @keyframes pulse {
+    0% {
+      transform: scale(1.1);
+      transition: var(--animation);
+    }
+  }
   @include tablet {
     width: 106px;
     height: 112px;
@@ -242,6 +260,14 @@
   right: 52px;
   width: 66px;
   height: 85px;
+
+  animation: pulse 4s infinite;
+  @keyframes pulse {
+    0% {
+      transform: scale(1.1);
+      transition: var(--animation);
+    }
+  }
   @include tablet {
     width: 139px ;
     height: 178px;
@@ -262,6 +288,14 @@
   right: 52px;
   width: 46px;
   height: 123px;
+
+  animation: pulse 4s infinite;
+  @keyframes pulse {
+    0% {
+      transform: scale(1.1);
+      transition: var(--animation);
+    }
+  }
   @include tablet{
     width: 66px;
     height: 148px;
@@ -280,6 +314,14 @@
   top: -63px;
   left: 43px;
   right: -38px;
+
+  animation: pulse 4s infinite;
+  @keyframes pulse {
+    0% {
+      transform: scale(1.1);
+      transition: var(--animation);
+    }
+  }
   @include tablet{
     top: -63px;
     left: 103px;

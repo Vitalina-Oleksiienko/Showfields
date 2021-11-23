@@ -1,0 +1,20 @@
+
+ul li {
+  list-style: none;
+ 
+}
+
+.list span {
+  cursor: pointer;
+}
+
+.hide::after {
+  content: "+";
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+
+}
+
+

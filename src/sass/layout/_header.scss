@@ -16,34 +16,50 @@
   margin: 0 auto;
   width: 42px;
   height: 52px;
+  animation: pulse 4s infinite;
+   @keyframes pulse {
+     0% {
+       transform: scale(1.1);
+       transition: var(--animation);
+     }
+   }
   @include tablet {
     width: 67px;
     height: 82px;
+        
   }
   @include desktop {
     width: 67px;
-    height: 82px;
+    height: 82px; 
+    
   }
 }
 .header-logo--text{
   margin: 0 auto;
   width: 181px;
   height: 49px;
+  animation: pulse 4s infinite;
+  @keyframes pulse {
+    0% {
+      transform: scale(1.1);
+      transition: var(--animation);
+    }
+  }
   @include tablet {
     width: 286px;
     height: 79px;
     margin-bottom: 20px;
+    
   }
   @include desktop {
     width: 286px;
     height: 79px;
     margin-bottom: 20px;
+    
   }
 }
 .header-menu {
-  
-  //display: inline;
-    
+      
   @include tablet {
     display: flex;
     justify-content: space-around;
@@ -73,26 +89,14 @@
     transform: none;
   }
 }
-.header-menu--js{
-  transform: translateX(-100%);
-}
-.header-menu--js.active {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 15px;
-  background: var(--accent-color);
-  text-align: center;
+
+.header-menu__item:not(:last-child) {
+  margin-bottom: 10px;
   
-  transition: transform 0.5s;
-  transform: translateX(0);
 }
-.header-menu__item {
-  //display: none;
-  
+.header-menu__item:hover,
+.header-menu__item:focus {
+  transform: scale(1.2);
 }
 .header__menu--mobile{
   

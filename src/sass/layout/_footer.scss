@@ -127,7 +127,7 @@
   }
 }
 .footer__about {
-  display: none;
+  //display: none;
   @include tablet{
     display: inline;
     font-family: 'Trade Gothic LT Std', sans-serif;
@@ -140,8 +140,11 @@
     display: block;
   }
 }
+.show.footer__about {
+  display: block;
+}
 .footer__visit {
-  display: none;
+  //display: none;
   @include tablet {
     display: block;
   }
@@ -151,7 +154,7 @@
   }
 }
 .footer__partner {
-  display: none;
+  //display: none;
   @include tablet {
     display: block;
   }

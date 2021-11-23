@@ -1,7 +1,22 @@
 .star {
   background-image: url(./../images/Group7.png);
-  //background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   padding: 49px 0 28px 0;
+  @include tablet{
+    background-image: url(./../images/stars.png), url(./../images/stars2.png);
+    background-size: contain;
+    background-position: center, right;
+    background-repeat: no-repeat;
+  }
+  @include desktop {
+    background-image: url(./../images/stars.png), url(./../images/stars2.png);
+    background-size: contain;
+    background-position: center, right;
+    background-repeat: no-repeat;
+    
+  }
 }
 .star__title {
   font-family: 'Ogg', sans-serif;
@@ -12,4 +27,13 @@
   text-align: center;
 
   color: var(--text-color);
+  @include tablet{
+    font-size: 36px;
+    line-height: 1.11;
+    
+  }
+  @include desktop {
+    font-size: 36px;
+    line-height: 1.11;
+  }
 }
