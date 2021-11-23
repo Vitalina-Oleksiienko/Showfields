@@ -43,7 +43,7 @@
 .header-menu {
   
   //display: inline;
-    transform: translateX(-100%);
+    
   @include tablet {
     display: flex;
     justify-content: space-around;
@@ -73,20 +73,25 @@
     transform: none;
   }
 }
-.header-menu.active{
-  position: fixed;
+.header-menu--js{
+  transform: translateX(-100%);
+}
+.header-menu--js.active {
+  display: block;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   padding: 15px;
-  background: #FFEFBA;
-  //transform: translateX(-100%);
+  background: var(--accent-color);
+  text-align: center;
+  
   transition: transform 0.5s;
   transform: translateX(0);
 }
 .header-menu__item {
-  //list-style-type: none;
+  //display: none;
   
 }
 .header__menu--mobile{
