@@ -149,6 +149,7 @@
   box-sizing: border-box;
   border-radius: 8px;
   margin: 0 auto 16px auto;
+  cursor: pointer;
   @include tablet{
     margin: 0 auto 0 auto;
   }
@@ -203,6 +204,7 @@
   border: 1px solid var(--text-color);
   box-sizing: border-box;
   margin: 0 auto 29px auto;
+  cursor: pointer;
   @include tablet{
     margin: 0 auto 91px auto;
     background: var(--accent-color);
