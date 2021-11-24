@@ -1,8 +1,8 @@
 for (let li of list.querySelectorAll('li')) {
-    let div = document.createElement('div'); /* создание span */
-    div.classList.add('show'); /* добавление класса для span */
-    li.prepend(div); /* вставить span внутри li */
-    div.append(div.nextSibling) /* присоединить к span следующий узел */
+    let div = document.createElement('div');
+    div.classList.add('show'); 
+    li.prepend(div); 
+    div.append(div.nextSibling) 
 }
 list.onclick = function(event) {
     if (event.target.tagName != 'DIV') return;

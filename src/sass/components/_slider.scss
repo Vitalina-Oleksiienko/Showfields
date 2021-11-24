@@ -13,11 +13,11 @@
   color: var(--text-color);
   @include tablet {
     margin:109px 0 0 0;
-    //text-align: end;
+    
   }
   @include desktop {
     margin:109px 0 0 0;
-    //text-align: end;
+    
   }
 }
 .slider__title-name {
@@ -31,13 +31,13 @@
   margin-bottom: 180px;
   @include tablet {
     margin: 0 0 0 0;
-    //text-align: end;
+    
     font-size: 41px;
   }
 
   @include desktop {
     margin: 0 0 0 0;
-    //text-align: end;
+    
     font-size: 61px;
   }
 }
@@ -119,18 +119,6 @@
     left: 18px;
   }
 }
-// .background::before {
-//   content: '';
-//   position: relative;
-//   //display: block;
-//   background-image: url(./../images/Group58.png);
-//   background-repeat: no-repeat;
-//   //background-position: 150%;
-//   background-size: contain;
-//   width: 175.31px;
-//   height: 175.31px;
-//   //margin: 0 auto;
-// }
 .slider__button--first {
   position: relative;
   font-family: 'Trade Gothic LT Std', sans-serif;

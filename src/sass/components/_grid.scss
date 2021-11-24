@@ -4,14 +4,8 @@
 .grid {
   //position: relative;
   display: grid;
-  //grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-  //   gap: 77px;
-  //   justify-items: center;
-  //grid-template-rows: 1fr 1fr;
   //grid-template-columns: repeat(2, 1fr);
   grid-template-columns: repeat(2, minmax(77px, 1fr));
-  //grid-template-columns: repeat(2, 1fr);
-  //grid-template-rows: repeat(2, 1fr);
   grid-gap: 35px 15px;
 
   @include tablet {
@@ -47,8 +41,7 @@
   padding: 8px;
   margin: 0 35px;
   max-width: 70%;
-  //width: 161px;
-  //height: 195px;
+  
   background: url(./../images/bgd.png);
   background-size: contain;
   background-repeat: no-repeat;
