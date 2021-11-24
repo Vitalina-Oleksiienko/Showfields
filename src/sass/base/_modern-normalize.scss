@@ -32,16 +32,18 @@ dd {
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
-  overflow-x: hidden;
+  min-width: 320px;
+  
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   @include tablet {
     overflow-x:hidden;
+    
   }
   @include desktop {
     overflow-x:hidden;
-  }
+    
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -85,4 +87,4 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
+}}
